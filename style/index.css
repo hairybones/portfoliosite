@@ -211,6 +211,31 @@ img.showcaseitem {
   display: none;
 }
 
+#ResumeContainer {
+	width: 100%;
+	height: auto;
+	background: #FFF url("../images/resume.jpg") no-repeat;
+	background-size: cover;}
+	
+h2.resume {
+	font-weight: bold;
+	font-size: 7vw;
+	margin: 10vw 10%;}
+	
+h3.resume {
+	font-weight: bold;
+	font-size: 3vw;
+	margin: 1vw 2%;}
+	
+h4.resume {
+	font-style: italic;
+	font-size: 2vw;
+	margin: 0.5vw 5%;}
+	
+p.resume {
+	font-size: 1.5vw;
+	margin: 0px 10%;}
+
 @media screen and (max-width: 1024px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
