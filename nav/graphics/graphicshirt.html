@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>It's Harrison Eads!</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="The Final Project for CMM242">
+		<meta name="keywords" content="We don't need no SEO"/>
+		<link href="../../style/graphics.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<header>
+			<div id="Head">
+				<p>It's Harrison Eads!</p>
+			</div>
+			<nav class="topnav" id="myTopnav">
+				<a href="../../index.html">Home</a>
+				<a href="../video.html">Video</a>
+				<a href="../graphics.html">Graphics</a>
+				<a href="../audio.html">Audio</a>
+				<a href="../../index.html#Contact">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="Hamburger()">
+					<i class="fa fa-bars">///</i>
+				</a>
+			</nav>
+		</header>
+		<br/><br/><br/>
+		<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+		<div id="Content"> - 
+			<div id="Item">
+				<div class="single">
+					<div class="singleitem">
+					<a target="_blank" href="https://www.redbubble.com/people/hairybones1997/works/23579546-harambe-the-movie?asc=u&p=mens-graphic-t-shirt">
+						<img class="singleitem" src="../../images/graphicshirt.png"/>
+					</a>
+					</div>
+					<p class="singleitem">This humorous art piece and many more like it were made either completely originally, or compiled from images around the internet in Adobe Illustrator and Adobe Photoshop, and have been avaliable on the website <a href="https://www.redbubble.com/people/hairybones1997" target="_blank">RedBubble</a> to purchase in any form you'd like, either as a poster, a T-shirt, a phone case, and anything else you can think of wanting to see these pieces.</p>
+					</div>
+				</div>
+			</div>
+			<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+			<a href="../graphics.html"><div id="GraphicsTitle" class="title">View More Graphics</div></a>
+		</div>
+		<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+		<footer id="Foot">
+		&copy; 2018 Harrison Eads. All Rights Reserved.
+		</footer>
+		<script>
+			function Hamburger() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
+	</body>
+</html>

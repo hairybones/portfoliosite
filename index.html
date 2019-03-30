@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>It's Harrison Eads!</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="The Final Project for CMM242">
+		<meta name="keywords" content="We don't need no SEO"/>
+		<link href="style/index.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<header>
+			<div id="Head">
+				<p>It's Harrison Eads!</p>
+			</div>
+			<nav class="topnav" id="myTopnav">
+				<a href="index.html" class="active">Home</a>
+				<a href="nav/video.html">Video</a>
+				<a href="nav/graphics.html">Graphics</a>
+				<a href="nav/audio.html">Audio</a>
+				<a href="#Contact">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="Hamburger()">
+					<i class="fa fa-bars">///</i>
+				</a>
+			</nav>
+		</header>
+		<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+		<div id="Bio">
+			<img id="BioImage" src="images/bioimage.png"/>
+			<div id="Intro">
+				<h1>Hello There!</h1>
+				<p id="BioDesc">If you're here, chances are you're in the market for someone that has over a decade of experience in digital arts and sciences. If so, I'm your guy. Since I was a kid, I created videos, graphic art, and audio pieces, and over time, my work has only gotten better and better. I went to SUNY Plattsburgh and hard work and dedication got me a Bachelors in Science for TV/Video Production and Digital Media. I am qualified, I am ready, and you won't be disappointed...</p>
+			</div>
+		</div>
+		<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+		<div id="ShowcaseTitle">Works Showcase</div>
+		<div id="Content"> - 
+			<div id="Showcase">
+				<div class="showcase">
+					<div id="VideoTitle" class="title">Video</div>
+					<div class="showcaseitem">
+						<p class="showcaseitem">A Live-to-Tape Pop Culture Video Podcast with Live Motion Graphics</p>
+						<a class="showcaseitem" href="nav/videos/livegraphicspodcast.html">
+							<img class="showcaseitem" src="images/livegraphicspodcast.jpg"/>
+						</a>
+					</div>
+					<div class="showcaseitem">
+						<p class="showcaseitem">Gameplay Captured Directly From a Seperate Source and Live Streamed Directly to a Website</p>
+						<a class="showcaseitem" href="nav/videos/video.html">
+							<img class="showcaseitem" src="images/video.jpg"/>
+						</a>
+					</div>
+				</div>
+				<div class="showcase">
+					<div id="GraphicsTitle" class="title">Graphics</div>
+					<div class="showcaseitem">
+						<p class="showcaseitem">A Store Full of Wearables and Other Art, All Originally Designed and Compiled</p>
+						<a class="showcaseitem" href="nav/graphics/graphicshirt.html">
+							<img class="showcaseitem" src="images/graphicshirt.png"/>
+						</a>
+					</div>
+					<div class="showcaseitem">
+						<p class="showcaseitem">A Live-to-Tape Pop Culture Video Podcast with Live Motion Graphics</p>
+						<a class="showcaseitem" href="nav/graphics/livegraphicspodcast.html">
+							<img class="showcaseitem" src="images/livegraphicspodcast.jpg"/>
+						</a>
+					</div>
+				</div>
+				<div class="showcase">
+					<div id="AudioTitle" class="title">Audio</div>
+					<div class="showcaseitem">
+						<p class="showcaseitem">A Pop Culture Podcast That Can Be Heard on iTunes, Spotify, and More</p>
+						<a class="showcaseitem" href="nav/audio/anchorpodcast.html">
+							<img class="showcaseitem" src="images/anchorpodcast.png"/>
+						</a>
+						</div>
+					<div class="showcaseitem">
+						<p class="showcaseitem">A Full Length Vaporwave Album Created using Heavily Modified Sounds of 80s and Nostalgia</p>
+						<a class="showcaseitem" href="nav/audio/invaliddaemon.html">
+							<img class="showcaseitem" src="images/invaliddaemon.jpg"/>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+			<div id="Contact">
+				<h1 id="ContactTitle">Contact</h1>
+				<div id="ContactForm">
+				To contact me about job proposals or any other questions or comments,  please use the form below:<br/><br/>
+				<form action="mailto:bonesawgroup@gmail.com" method="post" enctype="text/plain">
+					Name:<br/><br/>
+					<input type="text" name="name" size="64"><br/><br/>
+					Company Name (Optional):<br/><br/>
+					<input type="text" name="name" size="64"><br/><br/>
+					E-mail:<br/><br/>
+					<input type="text" name="mail" size="64"><br/><br/>
+					Inquery:<br/><br/>
+					<textarea name="comment" rows="10" cols="80"></textarea><br/><br/>
+					<input class="formbutton" type="submit" value="Send">
+					<input class="formbutton" type="reset" value="Reset Forms">
+				</form>
+				<br/>
+				</div>
+			</div>
+		</div>
+		<footer id="Foot">
+		&copy; 2018 Harrison Eads. All Rights Reserved.
+		</footer>
+		<script>
+			function Hamburger() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+</script>
+	</body>
+</html>

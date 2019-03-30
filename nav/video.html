@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>It's Harrison Eads!</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="The Final Project for CMM242">
+		<meta name="keywords" content="We don't need no SEO"/>
+		<link href="../style/video.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<header>
+			<div id="Head">
+				<p>It's Harrison Eads!</p>
+			</div>
+			<nav class="topnav" id="myTopnav">
+				<a href="../index.html">Home</a>
+				<a href="video.html" class="active">Video</a>
+				<a href="graphics.html">Graphics</a>
+				<a href="audio.html">Audio</a>
+				<a href="../index.html#Contact">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="Hamburger()">
+					<i class="fa fa-bars">///</i>
+				</a>
+			</nav>
+		</header>
+		<br/><br/><br/>
+		<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+		<div id="Content"> - 
+			<div id="Showcase">
+				<div id="VideoTitle" class="title">All Video</div>
+				<div class="showcase">
+					<div class="showcaseitem">
+						<p class="showcaseitem">A Live-to-Tape Pop Culture Video Podcast with Live Motion Graphics</p>
+						<a class="showcaseitem" href="videos/livegraphicspodcast.html">
+							<img class="showcaseitem" src="../images/livegraphicspodcast.jpg"/>
+						</a>
+					</div>
+					<div class="showcaseitem">
+						<p class="showcaseitem">Gameplay Captured Directly From a Seperate Source and Live Streamed Directly to a Website</p>
+						<a class="showcaseitem" href="videos/video.html">
+							<img class="showcaseitem" src="../images/video.jpg"/>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+		</div>
+		<footer id="Foot">
+		&copy; 2018 Harrison Eads. All Rights Reserved.
+		</footer>
+		<script>
+			function Hamburger() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
+	</body>
+</html>

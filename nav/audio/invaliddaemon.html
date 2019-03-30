@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>It's Harrison Eads!</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="The Final Project for CMM242">
+		<meta name="keywords" content="We don't need no SEO"/>
+		<link href="../../style/audio.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<header>
+			<div id="Head">
+				<p>It's Harrison Eads!</p>
+			</div>
+			<nav class="topnav" id="myTopnav">
+				<a href="../../index.html">Home</a>
+				<a href="../video.html">Video</a>
+				<a href="../graphics.html">Graphics</a>
+				<a href="../audio.html">Audio</a>
+				<a href="../../index.html#Contact">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="Hamburger()">
+					<i class="fa fa-bars">///</i>
+				</a>
+			</nav>
+		</header>
+		<br/><br/><br/>
+		<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+		<div id="Content"> - 
+			<div id="Item">
+				<div class="single">
+					<div class="singleitem">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ghaglI4ZkkM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<p class="singleitem">This audio is a full length album made in the genre of vaporwave, in the subgenre I have dubbed "Classical" vaporwave. These pieces involve one or two music tracks, typically pulled from the 70s or 80s, but occassionally are much more recent, then distorted to near unrecognizability and chopped up and sampled in a way that resembles music, but sometimes it just doesn't. This is fine however, as the genre calls not just for slower 80s hits, but unique, other-worldly soundscapes. Layered on top of these tracks are samples from points of nostolgia, as well as some original instrumentation. This album was created entirely through the use of FL Studio. </p>
+					</div>
+				</div>
+			</div>
+			<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+			<a href="../audio.html"><div id="AudioTitle" class="title">View More Audio</div></a>
+		</div>
+		<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+		<footer id="Foot">
+		&copy; 2018 Harrison Eads. All Rights Reserved.
+		</footer>
+		<script>
+			function Hamburger() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
+	</body>
+</html>

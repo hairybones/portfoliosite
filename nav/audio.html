@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>It's Harrison Eads!</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="The Final Project for CMM242">
+		<meta name="keywords" content="We don't need no SEO"/>
+		<link href="../style/audio.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<header>
+			<div id="Head">
+				<p>It's Harrison Eads!</p>
+			</div>
+			<nav class="topnav" id="myTopnav">
+				<a href="../index.html">Home</a>
+				<a href="video.html">Video</a>
+				<a href="graphics.html">Graphics</a>
+				<a href="audio.html" class="active">Audio</a>
+				<a href="../index.html#Contact">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="Hamburger()">
+					<i class="fa fa-bars">///</i>
+				</a>
+			</nav>
+		</header>
+		<br/><br/><br/>
+		<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+		<div id="Content"> - 
+			<div id="Showcase">
+				<div id="AudioTitle" class="title">All Audio</div>
+				<div class="showcase">
+					<div class="showcaseitem">
+						<p class="showcaseitem">A Pop Culture Podcast That Can Be Heard on iTunes, Spotify, and More</p>
+						<a class="showcaseitem" href="audio/anchorpodcast.html">
+							<img class="showcaseitem" src="../images/anchorpodcast.png"/>
+						</a>
+						</div>
+					<div class="showcaseitem">
+						<p class="showcaseitem">A Full Length Vaporwave Album Created using Heavily Modified Sounds of 80s and Nostalgia</p>
+						<a class="showcaseitem" href="audio/invaliddaemon.html">
+							<img class="showcaseitem" src="../images/invaliddaemon.jpg"/>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="fix"></div> <!-- PREVENTS FLOATING UP -->
+		</div>
+		<footer id="Foot">
+		&copy; 2018 Harrison Eads. All Rights Reserved.
+		</footer>
+		<script>
+			function Hamburger() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
+	</body>
+</html>
